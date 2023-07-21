@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+  font-family: "Karla";
+  font-size: 16px;
+   
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 20px;
+}
+
+.main-container {
+ 
+  width: 600px;
+  height: 400px;
+  box-shadow: 2px 5px 9px 2px rgba(0,0,0,0.56);
+  border-radius: 10px;
+  overflow: hidden;
+  
+  
+  
+}
+.top-box {
+  height: 40%;
+  width: 100%;
+  padding: 25px;
+  
+  
+  
+}
+.bottom-boxes {
+  height: 60%;
+  width: 100%;
+ 
+}
+.left-box {
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+  background-color: #2ab2af;
+  color: white;
+  
+}
+.right-box {
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+  background-color: #56bab5
+  
+    
+}
+h2, h4, p {
+  margin: 0;
+}
+.left-box, .right-box {
+  vertical-align: top;
+   padding: 25px;
+  
+  
+  
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8 ;
+  transform: scale(1.1);
+}
+button {
+  background-color: #c0df34;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+
+
+
+.main-container h2 {
+  color:  #2ab2af;
+  margin-bottom: 15px;
+}
+.top-box h4 {
+  color: #c0df34;
+  margin-bottom: 10px
+}
+.top-box p {
+  color: grey;
+}
+.right-box {
+  color: white;
+}
